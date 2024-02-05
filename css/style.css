@@ -1,0 +1,332 @@
+/*
+Theme Name: Journalx Child
+Theme URI: https://docs.wpshop.ru/themes/journalx
+Author: WPShop.biz
+Author URI: http://wpshop.biz/
+Template: journalx
+Version: 1.0.0
+*/
+
+/* Below you can add your CSS styles */
+/* Ниже Вы можете добавить свои CSS стили */
+
+.wppr {
+padding:0 20px;
+margin:0 auto 30px;
+position:relative;
+background:#f3f4f4
+}
+
+@media (min-width: 768px) {
+.wppr
+{
+max-width:700px;
+padding-left:0;
+padding-right:0
+}
+}
+
+@media (min-width: 1200px) {
+.wppr {
+left:-230px
+}
+}
+
+.bookmrks {
+margin-left:20px;
+white-space:nowrap
+}
+
+.bookmrks:before {
+content:"\272A";
+position:relative;
+font-size:1rem;
+vertical-align:middle;
+margin-right:6px;
+top:-3px;
+font-family:icomoon!important;
+speak:none;
+font-style:normal;
+font-weight:400;
+font-variant:normal;
+text-transform:none;
+line-height:1;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+}
+
+@media (max-width: 768px) {
+.bookmrks {
+display:none
+}	
+}
+
+.rt-reading-time {
+display:block;
+color:#999;
+font-size:.8em;
+font-family:Roboto,Arial,"Helvetica Neue",Helvetica,sans-serif;
+white-space:nowrap;
+padding-bottom:15px
+}
+
+.rt-reading-time:before {
+content:"\1F556";
+position:relative;
+font-size:1rem;
+vertical-align:middle;
+margin-right:6px;
+top:-3px;
+font-family:icomoon!important;
+speak:none;
+font-style:normal;
+font-weight:400;
+font-variant:normal;
+text-transform:none;
+line-height:1;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+}
+
+.entry-content a {
+color:#C02222
+}
+
+.table-of-contents a {
+color:#222
+}
+
+.table-of-contents a:hover {
+color:#305cf7
+}
+
+.entry-footer__comments {
+border-bottom:1px dashed;
+display:inline-block
+}
+
+.entry-content blockquote.check.liliya-k {
+padding:20px 30px 20px 95px!important
+}
+
+.entry-content blockquote.check.liliya-k:before {
+content:"";
+font-size:17px;
+color:#34bc58;
+background:url(../images/liliya-k-quote.jpg);
+top:40%;
+left:10px;
+width:75px;
+height:75px;
+margin-top:-25px;
+border-radius:100%
+}
+
+.cp_cff_pastel {
+margin:0 0 1.5em!important
+}
+
+.videofn {
+text-align:center;
+background:url(../images/videofn.png) no-repeat center #000;
+padding:20px 0 15px;
+position:relative;
+display:block
+}
+
+.eapps-instagram-feed.eapps-widget {
+margin-bottom:30px
+}
+
+.eapps-instagram-feed-title.eapps-instagram-feed-title-visible {
+padding:0 0 15px
+}
+
+.rmp-results {
+float:right
+}
+
+.rmp-main {
+padding:15px 0
+}
+
+.rmp-main-title {
+font-weight:bold
+}
+
+p#voting-results, p#no-vote {
+font-style:italic
+}
+
+.announce {
+background:#e31e24;
+text-align:center;
+font-weight:bold;
+padding:10px;
+font-size:15px;
+margin-bottom:30px
+}
+
+.announce a {
+display:block;
+height:100%;
+color:#ffffff
+}
+
+a.button7 {
+font-weight:700;
+color:white;
+text-decoration:none;
+padding:.8em 1em calc(.8em + 3px);
+border-radius:3px;
+background:rgb(227,30,36);
+box-shadow:0 -3px rgb(158, 36, 19) inset;
+transition:0.2s;
+display:block;
+margin:auto;
+max-width:340px;
+text-align:center
+}
+
+a.button7:hover {
+background:rgb(232,95,76)
+}
+
+a.button7:active {
+background:rgb(152,15,0);
+}
+
+.table-of-contents {
+border:2px dashed #C02222
+}
+
+.entry-tag a {
+white-space:nowrap
+}
+
+.flat_pm_crs {
+z-index:100000!important;
+width:35px!important;
+height:35px!important;
+left:auto!important;
+right:0px!important
+}
+
+.flat_pm_out.show.bottom .flat_pm_crs {
+width:33px!important;
+height:33px!important;
+top:-19px!important
+}
+
+.entry-content img.aligncenter, .entry-content img.size-full {
+background:url(../images/imagefn.png) no-repeat center #f3f4f4
+}
+
+.social-button span[data-counter] {
+color:#fff
+}
+
+@media (min-width: 576px) {
+.entry-content, .home-text {
+font-size: 18px;
+}
+}
+
+@media screen and (max-width: 640px) {
+table {
+overflow-x:auto;
+display:block
+}
+.entry-content tbody:after {
+content:"⟸ ⟹";
+position:absolute
+}
+}
+
+.entry-header-background .entry-header {
+background-color:rgba(0,0,0,.8);
+padding:20px;
+}
+
+@media (max-width: 768px) {
+.entry-header-background .entry-header .breadcrumb
+{
+padding-left:0px
+}
+}
+
+.entry-header-background:before {
+background-color:rgba(0,0,0,.1)
+}
+
+@media (max-width: 992px){
+.post-box--wide .post-box__category span
+{
+background-color:white!important
+}
+}
+
+.aboutimg {
+border-radius:50%
+}
+
+@media (max-width: 468px){
+.aboutimg
+{
+display:block;
+margin-bottom:1.5em;
+float:none
+}
+}
+
+.author-bio {
+font-size:.8em;
+font-style:italic;
+}
+
+
+.author-bio .pseudo-link {
+color:#C02222;
+white-space:nowrap
+}
+
+.author-bio-soc {	
+display:inline-block
+}
+
+.author-bio-soc a.inst-author-bio {
+background:url(/wp-content/uploads/2020/01/link-socials-min.png) no-repeat -100px center
+}
+
+.author-bio-soc a {
+display:inline-block;
+vertical-align:middle;
+width:18px;
+height:15px;
+border:0!important
+}
+
+.author-box {
+margin-bottom:0px;
+border-top:none
+}
+
+@media (min-width:992px) {
+.author-box {
+padding:15px 20px 15px
+}
+}
+
+.author-box__author {
+margin-bottom:0px
+}
+
+@media (min-width: 768px) {
+.entry-header-background {
+margin-bottom:0px
+}
+}
+
+.entry-title {
+margin:0px
+}
